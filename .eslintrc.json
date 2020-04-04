@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "airbnb-base",
+        "plugin:prettier/recommended"
+    ],
+    "rules": {
+        "class-methods-use-this": "off",
+        "no-console": "off"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+        "io": true
+    }
+}
